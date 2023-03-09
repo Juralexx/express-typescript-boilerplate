@@ -8,7 +8,8 @@
         "start": "node app.js",
         "dev": "concurrently \"npm run back\" \"npm run front\"",
         "back": "nodemon app.js",
-        "front": "npm start --prefix views"
+        "front": "npm start --prefix views",
+        "build": "npx tsc"
     },
     "dependencies": {
         "@types/compression": "^1.7.2",
